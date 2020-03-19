@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.BigMovie{
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
 }
+.SerchStar{
+    margin-left: 400px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
 }
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    /* padding: 5px; */
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px so gray;
+    margin: 20px;
+    
+}
+.Card:hover{
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    
+}
+.img{
+    height: 200px;
+    width: 200px;
+}
+.Movie{
+    display: flex;
+}
+.display{
+    height: 200px;
+    width: 200px;
+    border: 1px solid grey;
+    padding-left: 19px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.display input{
+    
+    margin-top: 20px;
+    
+
+}
+.display button{
+    
+    margin-top: 20px;
+    align-items: center;
+
+}
+.display button:hover{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.hide {
+    display: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h3 {
+      /* height: 50px; */
+       width: 35px; 
+      font-size: 40px;
+      background-color: aqua;
+      border-radius: 10px;
+      padding: 18px;
+      margin-left: 481px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+   h3:hover{
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    
+}
+span:hover{
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    
+}
+span {margin: 2px;
+
 }
